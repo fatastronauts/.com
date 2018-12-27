@@ -9,7 +9,7 @@ Metalsmith(__dirname)
     description: "We make software"
   })
   .source('./src')
-  .destination('./build')
+  .destination('./dist')
   .clean(false)
   .use(markdown())
   .use(permalinks())
